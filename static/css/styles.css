@@ -39,7 +39,7 @@ img{
 .post-content{
   background-color: #ffffffdd;
   margin: 0 20px;
-  padding: 30px;
+  padding: 10px;
   border-radius: 6px;
   transform: translateY(-60px);
   transition: .3s linear;
@@ -67,8 +67,9 @@ img{
 @media screen and (max-width: 1200px){
   .blog-posts{
     justify-content: center;
+    padding: 1%;
   }
   .post{
-    width: min(600px, 100%);
+    width: min(100%, 100%);
   }
 }
